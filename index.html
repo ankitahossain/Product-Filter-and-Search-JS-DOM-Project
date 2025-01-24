@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>filter products</title>
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-69936a1b279f3a9001400679f162b44b.css?vsn=d">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-light.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-light.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/duotone-light.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="FilterProductsWrapper">
+    <div class="FilterProductsBox">
+      <input type="search" class="searchField" placeholder="Search product name here.. ">
+      <button class="search_btn">Search</button>
+    </div>
+    <div class="buttons">
+      <button class="btn_value" onclick="filterProducts('All')">All</button>
+      <button class="btn_value" onclick="filterProducts('Topwear')">Topwear</button>
+      <button class="btn_value" onclick="filterProducts('Bottomwear')">Bottomwear</button>
+      <button class="btn_value" onclick="filterProducts('Jacket')">Jacket</button>
+      <button class="btn_value" onclick="filterProducts('Watch')">Watch</button>
+    </div>
+    <div id="products"></div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
